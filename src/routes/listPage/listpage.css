@@ -1,1 +1,21 @@
-/*# sourceMappingURL=listpage.css.map */
+.listPage {
+  display: flex;
+  height: 100%;
+}
+.listPage .listContainer {
+  flex: 3;
+  height: 100vh;
+}
+.listPage .listContainer .wrapper {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 150px;
+}
+.listPage .mapContainer {
+  flex: 2;
+  background-color: #fcf5f3;
+}/*# sourceMappingURL=listpage.css.map */
