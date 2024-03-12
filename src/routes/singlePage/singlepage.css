@@ -8,6 +8,65 @@
 .singlePage .details .wrapper {
   padding-right: 50px;
 }
+.singlePage .details .wrapper .info {
+  margin-top: 50px;
+}
+.singlePage .details .wrapper .info .top {
+  display: flex;
+  justify-content: space-between;
+}
+.singlePage .details .wrapper .info .top .post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.singlePage .details .wrapper .info .top .post h1 {
+  font-weight: 400;
+}
+.singlePage .details .wrapper .info .top .post .address {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #888;
+  font-size: 14px;
+}
+.singlePage .details .wrapper .info .top .post img {
+  width: 16px;
+  height: 16px;
+}
+.singlePage .details .wrapper .info .top .post .price {
+  padding: 5px;
+  background-color: #fcf5f3;
+  border-radius: 5px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-size: 20px;
+  font-weight: 300;
+}
+.singlePage .details .wrapper .info .top .user {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf5f3;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+.singlePage .details .wrapper .info .top .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.singlePage .details .wrapper .info .bottom {
+  margin-top: 50px;
+  color: #555;
+  line-height: 20px;
+}
 .singlePage .features {
   flex: 2;
   background-color: #fcf5f3;

@@ -62,18 +62,21 @@
     width: auto;
   }
 }
-.searchBar form button {
+.searchBar form .linkBtn {
   border: none;
   cursor: pointer;
   background-color: #fece51;
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 738px) {
-  .searchBar form button {
+  .searchBar form .linkBtn {
     padding: 10px;
   }
 }
-.searchBar form button img {
+.searchBar form .linkBtn img {
   height: 24px;
   width: 24px;
 }/*# sourceMappingURL=searchbar.css.map */
