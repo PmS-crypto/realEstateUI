@@ -3,7 +3,7 @@ import './slider.scss';
 const Slider = ({images}) => {
   return (
     <div className="slider">
-        <div className="fullSlider">
+        {/* <div className="fullSlider">
             <div className="arrow">
                 <img src="/arrow.png" alt="" />
             </div>
@@ -11,7 +11,7 @@ const Slider = ({images}) => {
             <div className="arrow">
             <img src="/arrow.png" alt="" />
             </div>
-        </div>
+        </div> */}
         <div className="bigImage">
             <img src={images[0]} alt="house image" />
         </div>

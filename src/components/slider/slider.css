@@ -10,7 +10,6 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
-  cursor: pointer;
 }
 .slider .bigImage {
   flex: 3;
